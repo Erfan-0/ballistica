@@ -44,7 +44,9 @@ class MainMenuActivity(bs.Activity[bs.Player, bs.Team]):
         self._news: NewsDisplay | None = None
 
     def on_transition_in(self) -> None:
-        # pylint: disable=too-many-locals
+        # pylint: disable=too-many-loca.
+
+ls
         # pylint: disable=too-many-statements
         # pylint: disable=too-many-branches
         super().on_transition_in()
